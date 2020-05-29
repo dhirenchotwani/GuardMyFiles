@@ -1,4 +1,4 @@
-# WatchMyFiles
+# GuardMyFiles
 A basic C# (WPF- Windows Presentation Foundation) Application which enables the user to make the system monitor selected directories while the user is away. It also notifies users via a normal Text Message about the activity that occurred in the directory which is being monitored.
 
 How to run this Particular Project
