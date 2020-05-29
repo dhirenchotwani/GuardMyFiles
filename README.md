@@ -1,5 +1,5 @@
 # WatchMyFiles
-A basic C# console Application which enables the user to make the system monitor selected directories while the user is away. Iiiit also notifies users via a normal Text Message about the activity that occurred in the directory which is being monitored.
+A basic C# (WPF- Windows Presentation Foundation) Application which enables the user to make the system monitor selected directories while the user is away. It also notifies users via a normal Text Message about the activity that occurred in the directory which is being monitored.
 
 How to run this Particular Project
 
@@ -12,26 +12,17 @@ i. Install [Visual Studio](https://code.visualstudio.com/download)
 ii. Clone this Repo
 
 
-iii. Open the Folder via Visual Studio File Menu
+iii. Click on open Project/Solution 
 
 
-iv. Click on Play Button
+iv. The projects opens up into a tab
 
 
-Method 2
+v. Click on Play Button
 
 
-i. Download and install [.NET Core](https://download.visualstudio.microsoft.com/download/pr/73718445-e2bd-40b7-b698-e8a9ac65f4e5/0816570f697c4e8f1b53ecfb33eaed7f/dotnet-sdk-3.1.300-win-x64.exe
-)
 
-
-ii. Navigate to the cloned repo folder through cmd
-
-
-iii. Hit dotnet run
-
-
-Note : Change the Directory Name you wish to monitor and also add your [msg91](https://msg91.com/) Auth Key!
+Note :  Add your [msg91](https://msg91.com/) Auth Key and the number you wish to send a Text Message!
 
 
 Screenshot for the Message Received:
