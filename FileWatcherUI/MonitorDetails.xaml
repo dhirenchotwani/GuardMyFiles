@@ -1,0 +1,27 @@
+﻿<Page x:Class="FileWatcherUI.MonitorDetails"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FileWatcherUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MonitorDetails"
+      Loaded="BeginMonitoring">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border Grid.Column="0" Grid.Row="0" Height="35" Padding="5" Background="#4E87D4">
+            <Label VerticalAlignment="Center" Foreground="White" Height="30">WatchMyFiles Observes the Following Activities:</Label>
+        </Border>
+        <TextBlock x:Name="Updates" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Height="206" Width="675" FontSize="14" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <Button x:Name="MonitorButton" Grid.Column="0" Click="StopMonitoring" Content="Stop Monitoring" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" Width="175" Height="35"></Button>
+    </Grid>
+</Page>
